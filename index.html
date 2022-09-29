@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>CCEP </title>
 </head>
 <body>
@@ -14,6 +15,7 @@
     <img src="./images/logo.jpeg" alt="Logo">
     <div class="nagivation">
         <ul>
+            <i id = "menu-close" class="fas fa-times"></i>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
@@ -23,6 +25,7 @@
             <li><a href="#">News</a></li>
             <li><a href="#" class="btn-blue">Contact</a></li>
         </ul>
+        <img id = "menu-btn" src="images/icons8-menu-150.png" alt="Hamburger Menu">
     </div>
 </nav>
 
@@ -129,9 +132,21 @@
         <input type="text" name="" id="" placeholder="Enter your email here">
         <a href="#" class="btn-yellow">Subscribe</a>
        </div>
+       
         
     </div>
+   
 </footer>
-    
+<div class="copyright">Copyright 2022 | All Right Reserved</div>
+
+<script>
+     $('#menu-btn').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+</script>
 </body>
 </html>
