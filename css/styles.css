@@ -264,10 +264,7 @@ nav .nagivation ul li a{
     grid-template-columns: 1fr 2fr;
 }
 
-
-
 .message{
-    
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -282,8 +279,6 @@ nav .nagivation ul li a{
 .cta-btn{
     display: flex;
     padding-top: 20px;
-   
-  
 }
 
 footer li{
@@ -451,9 +446,17 @@ nav .nagivation li a:hover{
     
     }
 
-    .president-message .content{
-        width: 100%;
+    .president-message{
+        padding: 30px;
     }
+
+    .message{
+        margin-top: 20px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+  
     
     .president-message h1{
         font-size: 30px;
@@ -485,6 +488,11 @@ nav .nagivation li a:hover{
         padding: 0;
     }
     
+    .cta-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
     #message h1{
