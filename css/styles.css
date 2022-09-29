@@ -412,7 +412,6 @@ nav .nagivation li a:hover{
 
     .president-message .content{
         width: 100%;
-        padding-bottom: 30px;
     }
     
     .president-message h1{
@@ -446,9 +445,7 @@ nav .nagivation li a:hover{
     }
     
     .message p {
-        margin-bottom: 30px;
-        font-size: 20px;
-        margin-top: 30px;
+        font-size: 15px;
         color: #355070;
     }
 
