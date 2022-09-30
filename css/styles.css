@@ -29,7 +29,16 @@ a{
 ul{
     list-style-type: none;
 }
-
+.name{
+    border-radius: 5px;
+    font-size: 20px;
+    color: var(--yellow);
+    padding: 10px 10px 10px 10px;
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
 nav{
     position: fixed;
     background-color: white;
@@ -252,6 +261,7 @@ nav .nagivation ul li a{
 }
 
 .president-message img{
+    z-index: -1;
     border-radius: 50%;
     width: 300px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
@@ -525,6 +535,17 @@ nav .nagivation li a:hover{
         width: 50%;
        
 
+    }
+
+    .name{
+        border-radius: 5px;
+        font-size: 18px;
+        color: var(--yellow);
+        padding: 8px;
+        background: #005C97;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
     }
 
 
