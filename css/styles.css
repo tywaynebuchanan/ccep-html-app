@@ -30,58 +30,65 @@ ul{
     list-style-type: none;
 }
 
-nav{
-    position: fixed;
-    background-color: white;
+header{
     width: 100%;
+    height: 80px;
+    background-color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 0vw 8vw;
+    justify-content: space-between;
+    padding: 0 100px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
 }
 
-nav img{
-    width: 100px;
-    cursor: pointer;
+.header{
+    position: fixed;
+    height: 80px;
+    background-color: white;
+    padding: 0 100px;
 }
 
-nav .nagivation{
+.logo img{
+    width: 70px;
     display: flex;
-
 }
 
-#menu-btn{
-    width: 30px;
-    height: 30px;
+.hamburger{
     display: none;
 }
 
-#menu-close{
-    display: none;
-}
-
-nav .nagivation ul{
+.navbar ul{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
-nav .nagivation ul li{
-    margin-left: 30px;
-}
-
-nav .nagivation ul li a{
-    color: rgb(21,21,100);
-    font-size: 18px;
-    font-weight: 400;
+.navbar ul li a {
+    display: block;
+    color: var(--blue);
+    padding: 10px 20px;
     transition: 0.3s ease;
+    margin: 0 5px;
+    
 }
 
-.nagivation ul li a:hover{
+.navbar ul li a:hover{
     color: var(--yellow);
 }
+/* 
+.navbar ul li a.active{
+    color: var(--yellow);
+    background: var(--blue);
+    border-radius: 5px;
+    padding: 10px 35px;
+    transition: 0.3s ease;
+
+}
+
+.navbar ul li a.active:hover{
+    color: var(--blue);
+    background: var(--yellow);
+    border-radius: 5px;
+} */
+
 
 #home{
     background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),
@@ -404,18 +411,10 @@ nav .nagivation li a:hover{
 
 @media (max-width: 450px) {
 
-    nav{
-        position: fixed;
-        background-color: white;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 20px;
-        margin: 0;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
-    }
+
+
+ 
+
     #home h1{
         font-size: 25px;
     }
