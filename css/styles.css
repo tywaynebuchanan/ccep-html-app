@@ -21,6 +21,11 @@ body{
 
 h1,h2,h3,h4,h5{
     font-family: "Fira Sans", sans-serif;
+    
+}
+
+.hr{
+   border-top: 1px solid var(--yellow);
 }
 a{
     text-decoration: none;
@@ -113,7 +118,22 @@ nav .nagivation ul li a{
     font-size: 3.5rem;
     color: white;
     letter-spacing: 1px;
+    text-shadow: 2px 2px #000814;
 
+}
+
+.about-us h1{
+    font-size: 3.5rem;
+    color: var(--blue);
+    letter-spacing: 1px;
+}
+
+.about-us{
+    padding: 10vw 8vw 2vw 8vw;   
+}
+
+.about-us-info{
+    padding: 1vw 8vw 5vw 8vw;   
 }
 
 #home .title-body{
@@ -340,7 +360,26 @@ footer .footer-col li{
    padding: 15px 12px;
    outline: none;
    border: none;
-   color: white;
+   color: #000814;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.footer-col .tel{
+    color: #e9ecef;
+
+}
+
+.footer-col .tel:hover{
+    color: #ffd60a;
+}
+
+.footer-col .cta-email{
+    color: #e9ecef;
+}
+
+.footer-col .cta-email:hover{
+    color: #ffd60a;
 }
 
 .copyright{
