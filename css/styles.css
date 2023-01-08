@@ -57,7 +57,7 @@ nav{
 }
 
 nav img{
-    width: 100px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -192,6 +192,15 @@ nav .nagivation ul li a{
     color: white !important;
 }
 
+.section{
+    padding: 5vw 8vw 5vw 8vw;
+    text-align: center;
+}
+
+.page-title{
+    padding-top:50px;
+    font-size: 40px;
+}
 #message{
     padding: 5vw 8vw 5vw 8vw;
     text-align: center;
@@ -389,6 +398,50 @@ footer .footer-col li{
     background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
 }
+
+/*Card Style*/
+
+.card-container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* .card-image{
+    overflow: hidden;
+    position: absolute;
+    top: 2;
+    left: 10%;
+    transform: translate(-50%,-50%);
+} */
+
+.card-image img{
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+
 
 @media (max-width: 768px) {
     nav{
