@@ -3,6 +3,8 @@
 :root{
     --blue: #003566;
     --yellow: #ffd60a;
+    --light-blue: #005C97;
+    --light:#fff;
 }
 *{
     padding: 0;
@@ -404,6 +406,8 @@ footer .footer-col li{
 .card-container{
     width: 1300px;
     margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .cards{
@@ -419,27 +423,151 @@ footer .footer-col li{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.15);
-    padding: 5px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    row-gap: 10px;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 20px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    padding:10px;
+  
 }
 
-/* .card-image{
-    overflow: hidden;
-    position: absolute;
-    top: 2;
-    left: 10%;
-    transform: translate(-50%,-50%);
-} */
 
 .card-image img{
     width: 200px;
     border-radius: 50%;
+    margin-top: 20px;
     
 }
+
+.card p {
+    font-weight: 300;
+}
+
+/*Contact Section CSS*/
+.contact-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.contac-us{
+    padding: 10vw 8vw 2vw 8vw;   
+}
+.contact-section{
+    padding: 6rem 0;
+    }
+
+    .contact-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: flex-start;
+        background: linear-gradient(to right, #363795, #005C97);
+        border-radius: 10px;
+    }
+    
+    .form-box{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+      /* width: 400px; */
+    
+    }
+    
+    .form-box form{
+      padding: 0;
+    }
+    
+    .form-box .title{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .form-box .form-input-group input{
+      width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding: 0.75rem 1rem;
+      margin: 5px 0px;
+      background-color: #fff;
+      color: var(--blue);
+    }
+    
+    .form-input-group label{
+      color: #fff;
+      font-weight: 200;
+    }
+    
+    .form-box .form-input-group textarea{
+       width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      padding: 0.75rem 1rem;
+      margin: 5px 0px;
+      resize: none;
+      background-color: #fff;
+      color: var(--blue);
+    }
+    
+    .send-message-button{
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .contact-box-info{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        row-gap: 10px;
+    }
+
+    .contact-box-info div{
+       padding-bottom: 40px;
+       display: flex;
+       flex-direction: column;
+       row-gap: 10px;
+    }
+
+    
+    
+    .contact-box-info .title{
+        color: var(--light);
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    
+    .contact-box-info .contact__info{
+      font-weight: 200;
+      color: var(--light);
+      margin-top: 0;
+    }
+    
+    .contact__info span{
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+    
+    .register{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+
 
 
 
