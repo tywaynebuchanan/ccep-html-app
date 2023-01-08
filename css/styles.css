@@ -5,6 +5,7 @@
     --yellow: #ffd60a;
     --light-blue: #005C97;
     --light:#fff;
+    --bg-color: #f8f9fa;
 }
 *{
     padding: 0;
@@ -407,6 +408,10 @@ footer .footer-col li{
 
 /*Card Style*/
 
+.bg{
+    background-color: var(--bg-color);
+}
+
 .card-container{
     width: 1300px;
     margin: 0 auto;
@@ -461,6 +466,7 @@ footer .footer-col li{
 }
 .contact-section{
     padding: 6rem 0;
+    background-color: var(--bg-color);
     }
 
     .contact-box{
@@ -600,6 +606,12 @@ footer .footer-col li{
 .message-box p{
     text-indent: 5%;
     font-size: 18px;
+}
+
+/*Services Section*/
+
+.services{
+    height: 50vh;
 }
 
 /*Media Queries*/
