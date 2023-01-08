@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5{
     font-family: "Fira Sans", sans-serif;
     
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .hr{
    border-top: 1px solid var(--yellow);
@@ -568,8 +572,37 @@ footer .footer-col li{
     }
 
 
+/*President Message Page CSS*/
 
+.pres-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.pres-image img{
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+}
 
+.intro-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.ending{
+    margin-top: 10px;
+}
+.message-box p{
+    text-indent: 5%;
+    font-size: 18px;
+}
+
+/*Media Queries*/
 
 @media (max-width: 768px) {
     nav{
